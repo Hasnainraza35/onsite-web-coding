@@ -1,0 +1,42 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: red;
+}
+
+ul{
+    background-color: black;
+    color: azure;
+    /* list-style:lower-roman; */
+    padding: 20px;
+    /* margin: 10px; */
+    width: 730px;
+}
+
+li{
+    display: inline;
+    margin-right: 30px;
+}
+
+
+ul li.abc{
+    text-decoration: none;
+    /* color: aquamarine; */
+}
+
+ul li.abc:hover{
+    color:burlywood;
+}
+
+span{
+    color: red;
+}
+
+ul li.xyz{
+    font-size:larger;
+    padding-right: 50px;
+}
+
